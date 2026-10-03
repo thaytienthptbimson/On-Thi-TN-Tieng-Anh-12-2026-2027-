@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="vi"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ôn thi tốt nghiệp Tiếng Anh 2026-2027</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f3f5fc;--sf:#fff;--ink:#131a3b;--mu:#59628c;--pr:#3a47d5;--on:#fff;--pt:#e9ebfc;--bd:#dde1f4;--ok:#0e9f6e;--wa:#d98300;--no:#d6334f;--hl:#ffc93c;--hero:#1c2590;--l0:#0e9f6e;--l1:#3a47d5;--l2:#e08a00;--l3:#d6334f;--sh:0 1px 2px #1a24601a,0 8px 20px -10px #1a246044}
+@media(prefers-color-scheme:dark){:root{--bg:#0d1226;--sf:#171f3f;--ink:#e8ebfa;--mu:#9aa4d0;--pr:#8e9bff;--on:#0d1226;--pt:#232d5c;--bd:#2b3668;--ok:#38d39f;--wa:#ffb340;--no:#ff6b86;--hero:#141b5e;--sh:none}}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;font:16px/1.6 "Be Vietnam Pro",system-ui,"Segoe UI",sans-serif;background:var(--bg);color:var(--ink)}
+:focus-visible{outline:3px solid var(--hl);outline-offset:2px}
+.hero{background:var(--hero);color:#fff;padding:22px 16px 78px}
+.hin{max-width:1040px;margin:auto;display:flex;align-items:center;gap:18px}.hin>div:first-child{flex:1}
+.hin h1{margin:0;font-size:clamp(1.3rem,4.2vw,2rem);line-height:1.2;font-weight:800}.hin p{margin:6px 0 0;color:#c6ccff;font-size:.92rem}
+.ring{position:relative;width:88px;height:88px;flex:none}.ring svg{transform:rotate(-90deg);display:block}.ring b{position:absolute;inset:0;display:grid;place-items:center;font-size:1.05rem;font-weight:800}
+.ring circle{fill:none;stroke-width:9}.ring .tr{stroke:#ffffff30}.ring .fg{stroke:var(--hl);stroke-linecap:round;animation:rg 1.1s ease-out}
+@keyframes rg{from{stroke-dashoffset:var(--c)}}
+.steps{max-width:1040px;margin:-54px auto 0;padding:0 16px;display:grid;grid-template-columns:repeat(3,1fr);gap:10px;position:relative}
+.step{background:var(--sf);border:2px solid transparent;border-radius:14px;padding:12px 14px;text-align:left;font:inherit;color:var(--ink);cursor:pointer;box-shadow:var(--sh)}
+.step.on{border-color:var(--pr)}.step.lk{opacity:.75}.step b{display:block;font-size:.98rem}.step small{color:var(--mu);font-size:.8rem}
+.mini{height:6px;background:var(--pt);border-radius:3px;margin-top:8px;overflow:hidden}.mini i{display:block;height:100%;background:var(--pr);border-radius:3px;transition:width .6s}
+main{max-width:1040px;margin:18px auto 0;padding:0 16px 80px}
+.note{background:var(--pt);border-radius:12px;padding:12px 14px;margin-bottom:14px;font-size:.92rem;display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.leg{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:.82rem;color:var(--mu);margin:0 0 14px}.leg span:before{content:"";display:inline-block;width:14px;height:6px;border-radius:3px;background:var(--k);margin-right:6px;vertical-align:middle}
+.cols{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,440px),1fr));gap:14px}
+.card{background:var(--sf);border-radius:16px;padding:16px;box-shadow:var(--sh);border-top:5px solid hsl(var(--h,232) 62% 52%)}
+.card .row{display:flex;justify-content:space-between;align-items:baseline;gap:8px}.card h2{margin:0;font-size:1.05rem}.card .row span{font-size:.85rem;color:var(--mu);white-space:nowrap}
+.card .mini{margin:8px 0 12px}.card .mini i{background:hsl(var(--h,232) 62% 52%)}
+.grid{display:grid;grid-template-columns:repeat(5,1fr);gap:8px}
+.t{position:relative;border:1.5px solid var(--bd);background:var(--bg);color:var(--ink);border-radius:12px;padding:8px 0 11px;font:inherit;font-weight:700;cursor:pointer;min-height:58px;overflow:hidden;transition:transform .12s}
+.t:hover{transform:translateY(-2px)}.t small{display:block;font-weight:500;font-size:.72rem;color:var(--mu)}
+.t.p3{background:color-mix(in srgb,var(--ok) 16%,var(--sf));border-color:var(--ok)}.t.p2{background:color-mix(in srgb,var(--wa) 18%,var(--sf));border-color:var(--wa)}.t.p1{background:color-mix(in srgb,var(--no) 14%,var(--sf));border-color:var(--no)}
+.t i.lv{position:absolute;left:0;right:0;bottom:0;height:4px;background:var(--k)}.t.empty{opacity:.4;cursor:not-allowed;border-style:dashed}
+.top{position:sticky;top:0;z-index:20;background:var(--sf);box-shadow:var(--sh)}
+.tb{max-width:1100px;margin:auto;display:flex;align-items:center;gap:10px;padding:10px 16px}.tb h2{flex:1;margin:0;font-size:1rem;line-height:1.3}
+.pill{font-variant-numeric:tabular-nums;font-weight:700;background:var(--pt);padding:4px 11px;border-radius:99px;font-size:.88rem;white-space:nowrap}.pill.warn{background:var(--no);color:#fff}
+.btn{padding:10px 18px;border-radius:10px;border:0;background:var(--pr);color:var(--on);font:inherit;font-weight:700;cursor:pointer}.btn.g{background:var(--pt);color:var(--ink)}
+.chips{max-width:1100px;margin:auto;display:flex;gap:6px;overflow-x:auto;padding:0 16px 10px;scrollbar-width:thin}
+.chip{flex:none;width:34px;height:34px;border-radius:50%;border:1.5px solid var(--bd);background:var(--bg);color:var(--ink);font:inherit;font-size:.82rem;font-weight:700;cursor:pointer}
+.chip.a{background:var(--pr);border-color:var(--pr);color:var(--on)}.chip.ok{background:var(--ok);border-color:var(--ok);color:#fff}.chip.no{background:var(--no);border-color:var(--no);color:#fff}
+.bar2{height:4px;background:var(--pt)}.bar2 i{display:block;height:100%;width:0;background:var(--pr);transition:width .25s}
+.wrap{max-width:1100px;margin:auto;padding:16px 16px 90px}.sh{font-size:1rem;margin:18px 0 10px}
+.sec.has{display:grid;grid-template-columns:minmax(0,1fr);gap:14px}
+@media(min-width:900px){.sec.has{grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:start}.ps{position:sticky;top:124px;max-height:calc(100vh - 144px);overflow:auto}}
+.ps{white-space:pre-line;font:1.02rem/1.8 Georgia,"Source Serif 4",serif;background:var(--sf);border-radius:14px;padding:16px 18px;box-shadow:var(--sh);border-left:5px solid var(--hl)}
+.q{background:var(--sf);border-radius:14px;padding:14px;margin-bottom:12px;box-shadow:var(--sh);scroll-margin-top:130px}
+.qh{display:flex;gap:10px}.qn{flex:none;width:30px;height:30px;border-radius:9px;background:var(--pt);color:var(--pr);display:grid;place-items:center;font-weight:800;font-size:.9rem}.s{white-space:pre-line;padding-top:3px;flex:1}
+.q label{display:block;margin-top:8px;cursor:pointer}.q label>span{display:flex;gap:10px;align-items:flex-start;padding:10px 12px;border:1.5px solid var(--bd);border-radius:12px;transition:background .12s}
+.q label:hover>span{background:var(--pt)}.q label b{flex:none;width:26px;height:26px;border-radius:50%;display:grid;place-items:center;background:var(--pt);font-size:.8rem}
+.q input{position:absolute;opacity:0}.q input:checked+span{border-color:var(--pr);background:var(--pt)}.q input:checked+span b{background:var(--pr);color:var(--on)}
+.q input:focus-visible+span{outline:3px solid var(--hl);outline-offset:2px}
+.q.fin label>span{opacity:.7}.q.fin label.ok>span{opacity:1;border-color:var(--ok);background:color-mix(in srgb,var(--ok) 15%,var(--sf))}.q.fin label.ok b{background:var(--ok);color:#fff}
+.q.fin label.no>span{opacity:1;border-color:var(--no);background:color-mix(in srgb,var(--no) 13%,var(--sf))}.q.fin label.no b{background:var(--no);color:#fff}
+.tag{display:block;margin-top:8px;font-size:.82rem;color:var(--wa);font-weight:600}
+.res{display:flex;flex-wrap:wrap;gap:18px;align-items:center;background:var(--sf);border-radius:16px;padding:18px;box-shadow:var(--sh);margin-bottom:16px}
+.res .ring{width:112px;height:112px}.res .tr{stroke:var(--pt)}.res .fg{stroke:var(--pr)}.st{flex:1;min-width:230px}.st p{margin:0 0 6px;font-weight:800;font-size:1.2rem}
+.kv{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:8px;font-size:.92rem}.kv .ok{color:var(--ok)}.kv .no{color:var(--no)}
+.lvb{display:grid;grid-template-columns:104px 1fr 42px;gap:8px;align-items:center;font-size:.82rem;margin:3px 0}.lvb div{height:8px;background:var(--pt);border-radius:4px;overflow:hidden}.lvb i{display:block;height:100%;background:var(--k)}
+.acts{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.hideok .q:not(.bad){display:none}
+.mask{position:fixed;inset:0;background:#0b1030b0;display:flex;align-items:center;justify-content:center;z-index:40;padding:16px}
+.mask div{background:var(--sf);padding:22px;border-radius:16px;max-width:380px;width:100%}.mask input{width:100%;padding:12px;font:inherit;border:1.5px solid var(--bd);border-radius:10px;margin:10px 0;background:var(--bg);color:var(--ink)}
+.err{color:var(--no);font-size:.9rem;min-height:1.4em}.sub{color:var(--mu);font-size:.9rem}
+.toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:11px 16px;border-radius:10px;z-index:50;max-width:90vw;font-size:.92rem}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+@media(max-width:600px){.steps{gap:6px;padding:0 10px}.step{padding:10px 9px}.step small{font-size:.72rem}.ring{width:68px;height:68px}.res .ring{width:96px;height:96px}.grid{gap:6px}.tb{flex-wrap:wrap}.tb h2{flex-basis:100%;order:-1}}
+</style></head><body>
+<div id="app"></div>
+<script src="data.js"></script>
+<script>
+/* ===== DỮ LIỆU MẪU (ghi đè/bổ sung bằng data.js: EXTRA_G, EXTRA_P) ===== */
+const H='3ef652823eb10deb8d9ff953005d6d03879d9fe4db7df393faf0b50bb116f26d';
+const LV=['Nhận biết','Thông hiểu','Vận dụng','Vận dụng cao'],LC=['--l0','--l1','--l2','--l3'];
+const TN={ten:'Thì & dạng động từ',pas:'Bị động & nhờ bảo',con:'Câu điều kiện',rel:'Mệnh đề quan hệ',cmp:'So sánh',mod:'Động từ khuyết thiếu',det:'Từ hạn định & lượng từ',wf:'Từ loại & cấu tạo từ'};
+// định dạng: cấp(0-3)|câu|A|B|C|D|đáp án(0-3)
+const G={
+ten:['0|She ___ in Hanoi since 2015.|lives|has lived|is living|lived|1','1|By the time we arrived, the film ___.|already started|has already started|had already started|was already starting|2','2|This time tomorrow, we ___ on a beach in Da Nang.|will lie|will be lying|are lying|will have lain|1','3|No sooner ___ the door than the phone rang.|she had opened|had she opened|she opened|did she open|1'],
+pas:['0|The report ___ by the manager yesterday.|wrote|was written|is written|has written|1','1|The bridge ___ at the moment.|is repaired|is being repaired|has repaired|is repairing|1','2|I had my laptop ___ last week.|fix|fixing|fixed|to fix|2','3|The thief is believed ___ the country already.|to leave|to have left|having left|to be left|1'],
+con:['0|If it rains, we ___ at home.|stay|will stay|stayed|would stay|1','1|If I ___ you, I would apologise.|am|was|were|had been|2','2|If she ___ harder, she would have passed the exam.|studied|had studied|has studied|would study|1','3|___ I known the truth, I would have acted differently.|If|Had|Should|Were|1'],
+rel:['0|The man ___ lives next door is a doctor.|who|which|whose|whom|0','1|This is the school ___ I studied for three years.|which|who|where|whose|2','2|The book, ___ cover is red, belongs to Lan.|that|which|whose|who|2','3|The students, most of ___ were exhausted, left early.|who|whom|whose|which|1'],
+cmp:['0|Lan is ___ than her sister.|tall|taller|tallest|the tallest|1','1|He is the ___ student in our class.|more intelligent|most intelligent|intelligenter|as intelligent|1','2|The more you practise, ___ you speak.|the better|better|the best|more better|0','3|She is by far ___ of the three candidates.|the most qualified|more qualified|most qualified|the more qualified|0'],
+mod:['0|You ___ wear a helmet when riding a motorbike.|should|may|can|will|0','1|You ___ bring your ID card; it is not required.|mustn\'t|needn\'t|can\'t|shouldn\'t|1','2|He ___ have left already; his coat is gone.|must|should|ought|need|0','3|She ___ have told us earlier, but she didn\'t.|should|must|can|may|0'],
+det:['0|She has ___ friends in this city.|a little|few|much|every|1','1|I don\'t like ___ of these two shirts.|either|neither|both|any|0','2|Each of the rooms ___ a view of the sea.|have|has|are having|were|1','3|There was ___ water left in the bottle, so we bought more.|hardly|a few|little|any|2'],
+wf:['0|We need to ___ with other schools.|cooperative|cooperation|cooperate|cooperatively|2','1|Her ___ to the project was impressive.|contribute|contribution|contributive|contributor|1','2|The company has made ___ progress in reducing waste.|consider|considerable|considerably|consideration|1','3|Lack of ___ is the main cause of many failures.|prepare|preparing|preparation|prepared|2']
+};
+const O=(s,o,a)=>({s,o,a});
+// 6 dạng: [0] sắp xếp câu (1-5) [1] điền đoạn (6-10) [2] đọc hiểu (11-20) [3] đọc hiểu (21-28) [4] flyer (29-34) [5] leaflet (35-40)
+const PT=['Sắp xếp câu/hội thoại','Điền đoạn văn','Đọc hiểu 1 (10 câu)','Đọc hiểu 2 (8 câu)','Điền từ – Flyer (6 câu)','Điền từ – Leaflet (6 câu)'];
+const P=[
+[{lv:1,secs:[{h:'Chọn thứ tự đúng',qs:[
+O('a. Diner: Excuse me, I\'ve been waiting so long for my order.\nb. Diner: Thanks for your help.\nc. Waiter: I\'m sorry! I\'ll check with the kitchen and get back to you immediately.',['a - b - c','b - c - a','c - b - a','a - c - b'],3),
+O('a. Customer: What if I don\'t keep the original packaging?\nb. Customer: Great. I\'ll bring the item and receipt tomorrow.\nc. Customer: I\'d like to exchange the electric fan I bought yesterday.\nd. Manager: Sold items can be exchanged within five days, but we don\'t give refunds.\ne. Manager: No problem, only your receipt is needed.',['c - d - a - e - b','a - d - c - e - b','c - e - a - d - b','a - e - c - d - b'],0)]}]}],
+[],[],[],
+[{lv:1,secs:[{h:'Flyer',p:'LET\'S WARM THEIR HEARTS!\nIn many remote regions, children face the harsh cold, which affects their health and education. Your kindness can warm their hearts. Let\'s work together to give them a better winter. Our project includes:\n• Collection: Please @1 out your old winter clothes by size and ensure that the items are dry and in good @2. You can drop them off at our collection points.\n• Cleaning: We will have all donations @3 to ensure that they are fresh. We use eco-friendly detergents to @4 the sensitive skin of the children.\n• Distribution: We @5 with local schools to distribute the clothes directly to the students in need. If everyone @6 a hand, we will help thousands of children stay warm this winter.',qs:[
+O('',['fill','catch','sort','turn'],2),O('',['condition','relation','situation','position'],0),O('',['washing','wash','being washed','washed'],3),O('',['protect','provide','promote','produce'],0),O('',['cooperative','cooperatively','cooperation','cooperate'],3),O('',['give','gave','gives','have given'],2)]}]}],
+[{lv:2,secs:[{h:'Leaflet',p:'GREEN HANDS, CLEAN LAND\nThe theme for Green Week 2026 puts @1 on the role of our community in protecting the environment.\nSince 2018, our annual campaigns have been coming up @2. This year, we are planning two activities: clean-up and tree-planting. Participation in @3 activity is open to all residents. Completed forms @4 be submitted by 30 June.\nThe harder we try, @5 our future will be! Apply now!',qs:[
+O('',['intention','influence','emphasis','example'],2),O('',['roses','sky','goods','gold'],0),O('',['either','neither','other','both'],0),O('',['should','should not','ought','ought not'],0),O('',['greener','greenest','the greenest','the greener'],3)]}]}]
+];
+
+/* ===== TRẠNG THÁI ===== */
+let S;try{S=JSON.parse(localStorage.tn26)}catch(e){}S=S||{d:{},u:0};
+const save=()=>{try{localStorage.tn26=JSON.stringify(S)}catch(e){}};
+const $=s=>document.querySelector(s),topics=Object.keys(G);
+const gDone=()=>Object.keys(S.d).filter(k=>k[0]=='g').length,gTot=()=>topics.length*10;
+function rng(s){let a=0;for(const c of s)a=Math.imul(a^c.charCodeAt(0),2654435761)>>>0;return()=>{a=a+0x6D2B79F5|0;let t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}}
+async function sha(s){const b=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(s));return[...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join('')}
+
+/* ===== DỰNG BÀI ===== */
+function gEx(t,i){ // 20 câu = 5 câu/cấp độ, rút tuần hoàn từ ngân hàng
+ const rr=rng('x'+t+i);if(window.EXTRA_G&&EXTRA_G[t]&&EXTRA_G[t][i])return[{qs:EXTRA_G[t][i].map((x,k)=>{if(typeof x!='string')return x;const a=x.split('|'),o=a.slice(1,5),ix=[0,1,2,3];for(let j=3;j>0;j--){const m=rr()*(j+1)|0;[ix[j],ix[m]]=[ix[m],ix[j]]}return{s:a[0],o:ix.map(j=>o[j]),a:ix.indexOf(+a[5]),l:k/5|0}})}];
+ const b=G[t].concat((window.EXTRA_B&&EXTRA_B[t])||[]).map(x=>x.split('|')).map(a=>({l:+a[0],s:a[1],o:a.slice(2,6),a:+a[6]})),r=rng(t+i),qs=[];
+ for(let k=0;k<20;k++){let L=b.filter(x=>x.l==(k/5|0));if(!L.length)L=b;const q=L[(i*5+k%5)%L.length],ix=[0,1,2,3].sort(()=>r()-.5);qs.push({s:q.s,o:ix.map(j=>q.o[j]),a:ix.indexOf(q.a),l:k/5|0})}
+ return[{qs}]}
+const pBank=ty=>P[ty].concat((window.EXTRA_P&&EXTRA_P[ty])||[]);
+const pEx=(ty,i)=>pBank(ty)[i];
+function tEx(k){return[0,1,2,3,4,5].flatMap(ty=>{const b=pBank(ty);return b.length?b[k%b.length].secs:[]})}
+
+/* ===== GIAO DIỆN ===== */
+let tab=0,last;const HUE=[232,168,28,340,265,196,100,12];
+const cnt=p=>Object.keys(S.d).filter(k=>k[0]==p).length,TOT=[gTot,()=>PT.reduce((a,_,i)=>a+pBank(i).length,0),()=>20];
+const ring=p=>`<div class=ring><svg viewBox="0 0 100 100"><circle class="tr" cx="50" cy="50" r="42"/><circle class="fg" cx="50" cy="50" r="42" stroke-dasharray="263.9" stroke-dashoffset="${263.9*(1-p)}" style="--c:263.9"/></svg><b>${Math.round(p*100)}%</b></div>`;
+const toast=m=>{const e=document.createElement('div');e.className='toast';e.textContent=m;document.body.appendChild(e);setTimeout(()=>e.remove(),3400)};
+const perf=r=>r.s/r.t>=.8?'p3':r.s/r.t>=.5?'p2':'p1';
+const tile=(lab,r,fn,lv,off)=>off?`<button class="t empty" disabled>${lab}<small>trống</small></button>`:`<button class="t ${r?perf(r):''}" onclick="${fn}"${lv!=null?` style="--k:var(${LC[lv]})"`:''}>${lab}<small>${r?r.s+'/'+r.t:'Làm bài'}</small>${lv!=null?'<i class=lv></i>':''}</button>`;
+function nav(n){
+ if(n>0){if(gDone()<gTot()){tab=0;home();return toast('Còn '+(gTot()-gDone())+' bài ngữ pháp nữa là mở khóa.')}
+  if(!S.u)return askPw(n)}
+ tab=n;home()}
+function home(){
+ const D=['g','p','t'].map(cnt),T=TOT.map(f=>f()),all=D.reduce((a,b)=>a+b)/T.reduce((a,b)=>a+b);
+ let h=`<div class=hero><div class=hin><div><h1>Ôn thi tốt nghiệp Tiếng Anh</h1><p>Năm học 2026-2027, bám cấu trúc đề mẫu 40 câu</p></div>${ring(all)}</div></div><div class=steps>`+['Ngữ pháp','Dạng bài','Đề mẫu'].map((x,i)=>`<button class="step ${tab==i?'on':''} ${i&&!S.u?'lk':''}" onclick="nav(${i})"><b>${i&&!S.u?'🔒 ':''}${x}</b><small>${D[i]}/${T[i]} bài</small><div class=mini><i style="width:${T[i]?D[i]/T[i]*100:0}%"></i></div></button>`).join('')+'</div><main>';
+ if(tab==0){const rest=gTot()-gDone();
+  h+=rest?`<div class=note><span>Làm đủ <b>${gTot()} bài</b> để mở khóa Dạng bài và Đề mẫu. Còn <b>${rest}</b> bài.</span></div>`:S.u?'':`<div class=note><span>Bạn đã hoàn thành phần ngữ pháp.</span><button class=btn onclick="nav(1)">Nhập mật khẩu</button></div>`;
+  h+='<div class=leg><span style="--k:var(--ok)">Từ 80% trở lên</span><span style="--k:var(--wa)">50 đến 79%</span><span style="--k:var(--no)">Dưới 50%</span></div><div class=cols>';
+  topics.forEach((t,ti)=>{let d=0,g='';for(let i=0;i<10;i++){const r=S.d['g:'+t+':'+i];d+=!!r;g+=tile(i+1,r,`runG('${t}',${i})`)}
+   h+=`<div class=card style="--h:${HUE[ti%8]}"><div class=row><h2>${TN[t]}</h2><span>${d}/10 bài</span></div><div class=mini><i style="width:${d*10}%"></i></div><div class=grid>${g}</div></div>`});h+='</div>'}
+ if(tab==1){h+='<div class=leg>'+LV.map((l,i)=>`<span style="--k:var(${LC[i]})">${l}</span>`).join('')+'</div><div class=cols>';
+  PT.forEach((n,ty)=>{const b=pBank(ty);let g='',d=0;for(let i=0;i<20;i++){const r=S.d['p:'+ty+':'+i];d+=!!r;g+=tile(i+1,r,`runP(${ty},${i})`,b[i]&&b[i].lv,!b[i])}
+   h+=`<div class=card style="--h:${HUE[(ty+3)%8]}"><div class=row><h2>${n}</h2><span>${b.length}/20 bài có đề</span></div><div class=mini><i style="width:${d*5}%"></i></div><div class=grid>${g}</div></div>`});h+='</div>'}
+ if(tab==2){let g='';for(let i=0;i<20;i++)g+=tile('Đề '+(i+1),S.d['t:'+i],`runT(${i})`);
+  h+=`<div class=note><span>Mỗi đề gồm 6 dạng bài, 40 câu, làm trong 50 phút. Hết giờ hệ thống tự nộp bài.</span></div><div class=card style="--h:232"><div class=grid>${g}</div></div>`}
+ $('#app').innerHTML=h+'</main>';scrollTo(0,0)}
+const runG=(t,i)=>quiz(TN[t]+', bài '+(i+1),gEx(t,i),'g:'+t+':'+i);
+const runP=(ty,i)=>quiz(PT[ty]+', bài '+(i+1),pEx(ty,i).secs,'p:'+ty+':'+i);
+const runT=i=>{const s=tEx(i);s.length?quiz('Đề mẫu '+(i+1),s,'t:'+i,50):toast('Chưa có dữ liệu cho đề này.')};
+
+let tm;
+function quiz(title,secs,key,min){
+ last=[title,secs,key,min];let n=0,h='';
+ secs.forEach(s=>{const base=n;if(s.h)h+=`<h3 class=sh>${s.h}</h3>`;
+  h+=`<div class="sec ${s.p?'has':''}">`+(s.p?`<div class=ps>${s.p.replace(/@(\d+)/g,(m,d)=>'<b>('+(base+ +d)+') ____</b>')}</div>`:'')+'<div>';
+  s.qs.forEach(q=>{q.n=n++;h+=`<div class=q id=q${q.n}><div class=qh><span class=qn>${q.n+1}</span><div class=s>${q.s||'Chọn đáp án cho chỗ trống ('+(q.n+1)+')'}</div></div>`+q.o.map((o,j)=>`<label><input type=radio name=r${q.n} value=${j}><span><b>${'ABCD'[j]}</b><span>${o}</span></span></label>`).join('')+'</div>'});h+='</div></div>'});
+ const all=secs.flatMap(s=>s.qs);let end=0,left=(min||0)*60;
+ $('#app').innerHTML=`<div class=top><div class=tb><button class="btn g" onclick="leave()">Thoát</button><h2>${title}</h2>${min?`<span class=pill id=tmr>${min}:00</span>`:''}<span class=pill id=cnt>0/${all.length}</span><button class=btn id=sub>Nộp bài</button></div><div class=chips id=chips>${all.map(q=>`<button class=chip data-n=${q.n} aria-label="Câu ${q.n+1}">${q.n+1}</button>`).join('')}</div><div class=bar2><i id=pb></i></div></div><div class=wrap><div id=res></div><div id=body>${h}</div><button class=btn id=sub2 style="width:100%">Nộp bài</button></div>`;
+ scrollTo(0,0);const ch=[...document.querySelectorAll('.chip')],sel=q=>document.querySelector(`input[name=r${q.n}]:checked`);
+ const upd=()=>{let a=0;all.forEach(q=>{const c=!!sel(q);a+=c;ch[q.n].classList.toggle('a',c)});$('#cnt').textContent=a+'/'+all.length;$('#pb').style.width=a/all.length*100+'%'};
+ $('#body').onchange=upd;$('#chips').onclick=e=>{const k=e.target.dataset.n;if(k!=null)$('#q'+k).scrollIntoView({behavior:'smooth',block:'center'})};
+ const fin=()=>{if(end)return;end=1;clearInterval(tm);let sc=0,bl=0;const lc=[0,0,0,0],lt=[0,0,0,0];
+  all.forEach(q=>{const c=sel(q),ok=c&&+c.value==q.a;sc+=!!ok;bl+=!c;if(q.l!=null){lt[q.l]++;lc[q.l]+=!!ok}
+   const bx=$('#q'+q.n);bx.classList.add('fin');if(!ok){bx.classList.add('bad');if(!c)bx.querySelector('.s').insertAdjacentHTML('beforeend','<span class=tag>Chưa làm, đáp án đúng được tô xanh.</span>')}
+   ch[q.n].classList.remove('a');ch[q.n].classList.add(ok?'ok':'no');
+   bx.querySelectorAll('label').forEach((l,j)=>{l.querySelector('input').disabled=true;if(j==q.a)l.classList.add('ok');else if(c&&+c.value==j)l.classList.add('no')})});
+  if(!S.d[key]||sc>=S.d[key].s){S.d[key]={s:sc,t:all.length};save()}
+  $('#sub').style.display=$('#sub2').style.display='none';
+  const lv=LV.map((l,i)=>lt[i]?`<div class=lvb style="--k:var(${LC[i]})"><span>${l}</span><div><i style="width:${lc[i]/lt[i]*100}%"></i></div><span>${lc[i]}/${lt[i]}</span></div>`:'').join('');
+  $('#res').innerHTML=`<div class=res>${ring(sc/all.length)}<div class=st><p>Điểm ${(sc/all.length*10).toFixed(2)}/10</p><div class=kv><span>Đúng <b class=ok>${sc}</b></span><span>Sai <b class=no>${all.length-sc-bl}</b></span><span>Bỏ trống <b>${bl}</b></span></div>${lv}<div class=acts><button class=btn id=rv>Chỉ xem câu sai</button><button class="btn g" id=rt>Làm lại</button><button class="btn g" onclick="leave()">Về danh sách</button></div></div></div>`;
+  $('#rv').onclick=e=>{const b=$('#body').classList.toggle('hideok');e.target.textContent=b?'Xem tất cả câu':'Chỉ xem câu sai'};$('#rt').onclick=()=>quiz(...last);scrollTo(0,0)};
+ $('#sub').onclick=$('#sub2').onclick=()=>{const un=all.filter(q=>!sel(q)).length;if(!un||confirm('Còn '+un+' câu chưa làm. Vẫn nộp bài?'))fin()};
+ clearInterval(tm);if(min)tm=setInterval(()=>{left--;const e=$('#tmr');e.textContent=String(left/60|0).padStart(2,'0')+':'+String(left%60).padStart(2,'0');e.classList.toggle('warn',left<300);if(left<=0)fin()},1000)}
+function leave(){clearInterval(tm);home()}
+
+function askPw(n){const m=document.createElement('div');m.className='mask';
+ m.innerHTML='<div><b>🔓 Bạn đã hoàn thành phần ngữ pháp</b><p class=sub>Nhập mật khẩu để mở khóa Dạng bài và Đề mẫu.</p><input id=pw type=password placeholder="Mật khẩu" autocomplete=off><div class=err id=pe></div><button class=btn id=ok>Mở khóa</button> <button class="btn g" id=no>Để sau</button></div>';
+ document.body.appendChild(m);$('#pw').focus();
+ const go=async()=>{try{if(await sha($('#pw').value.trim())==H){S.u=1;save();m.remove();nav(n)}else $('#pe').textContent='Mật khẩu chưa đúng, hãy thử lại.'}catch(e){$('#pe').textContent='Hãy mở trang qua https hoặc localhost để kiểm tra mật khẩu.'}};
+ $('#ok').onclick=go;$('#pw').onkeydown=e=>e.key=='Enter'&&go();$('#no').onclick=()=>m.remove()}
+home();
+</script></body></html>
