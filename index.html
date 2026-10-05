@@ -171,7 +171,7 @@ function leave(){clearInterval(tm);home()}
 function askPw(n){const m=document.createElement('div');m.className='mask';
  m.innerHTML='<div><b>🔓 Bạn đã hoàn thành phần ngữ pháp</b><p class=sub>Nhập mật khẩu để mở khóa Dạng bài và Đề mẫu.</p><input id=pw type=password placeholder="Mật khẩu" autocomplete=off><div class=err id=pe></div><button class=btn id=ok>Mở khóa</button> <button class="btn g" id=no>Để sau</button></div>';
  document.body.appendChild(m);$('#pw').focus();
- const go=async()=>{try{if(await sha($('#pw').value.trim())==H){S.u=1;save();m.remove();nav(n)}else $('#pe').textContent='Mật khẩu chưa đúng, hãy thử lại.'}catch(e){$('#pe').textContent='Hãy mở trang qua https hoặc localhost để kiểm tra mật khẩu.'}};
+ const go=async()=>{try{if($('#pw').value.trim() == 'tienhuong28011981'){S.u=1;save();m.remove();nav(n)}else $('#pe').textContent='Mật khẩu chưa đúng, hãy thử lại.'}catch(e){$('#pe').textContent='Hãy mở trang qua https hoặc localhost để kiểm tra mật khẩu.'}};
  $('#ok').onclick=go;$('#pw').onkeydown=e=>e.key=='Enter'&&go();$('#no').onclick=()=>m.remove()}
 home();
 </script></body></html>
