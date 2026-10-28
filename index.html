@@ -9,14 +9,14 @@
 *{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
 body{margin:0;font:16px/1.6 "Be Vietnam Pro",system-ui,"Segoe UI",sans-serif;background:var(--bg);color:var(--ink)}
 :focus-visible{outline:3px solid var(--hl);outline-offset:2px}
-.hero{background:var(--hero);color:#fff;padding:22px 16px 78px}
-.hin{max-width:1040px;margin:auto;display:flex;align-items:center;gap:18px}.hin>div:first-child{flex:1}
-.hin h1{margin:0;font-size:clamp(1.3rem,4.2vw,2rem);line-height:1.2;font-weight:800}.hin p{margin:6px 0 0;color:#c6ccff;font-size:.92rem}
+.hero{background:var(--hero);color:#fff;padding:28px 16px 82px;text-align:center}
+.hin{max-width:1040px;margin:auto;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;text-align:center}.hin>div:first-child{width:100%;display:flex;flex-direction:column;align-items:center}
+.hin h1{margin:0;font-size:clamp(1.4rem,4.2vw,2.1rem);line-height:1.25;font-weight:800}.hin p{margin:6px auto 0;color:#c6ccff;font-size:.94rem;max-width:780px}
 .ring{position:relative;width:88px;height:88px;flex:none}.ring svg{transform:rotate(-90deg);display:block}.ring b{position:absolute;inset:0;display:grid;place-items:center;font-size:1.05rem;font-weight:800}
 .ring circle{fill:none;stroke-width:9}.ring .tr{stroke:#ffffff30}.ring .fg{stroke:var(--hl);stroke-linecap:round;animation:rg 1.1s ease-out}
 @keyframes rg{from{stroke-dashoffset:var(--c)}}
 .steps{max-width:1040px;margin:-54px auto 0;padding:0 16px;display:grid;grid-template-columns:repeat(3,1fr);gap:10px;position:relative}
-.step{background:var(--sf);border:2px solid transparent;border-radius:14px;padding:12px 14px;text-align:left;font:inherit;color:var(--ink);cursor:pointer;box-shadow:var(--sh)}
+.step{background:var(--sf);border:2px solid transparent;border-radius:14px;padding:12px 14px;text-align:center;font:inherit;color:var(--ink);cursor:pointer;box-shadow:var(--sh)}
 .step.on{border-color:var(--pr)}.step.lk{opacity:.75}.step b{display:block;font-size:.98rem}.step small{color:var(--mu);font-size:.8rem}
 .mini{height:6px;background:var(--pt);border-radius:3px;margin-top:8px;overflow:hidden}.mini i{display:block;height:100%;background:var(--pr);border-radius:3px;transition:width .6s}
 main{max-width:1040px;margin:18px auto 0;padding:0 16px 80px}
@@ -72,7 +72,7 @@ main{max-width:1040px;margin:18px auto 0;padding:0 16px 80px}
 .dmod input,.dmod select{width:100%;padding:9px 11px;font:inherit;font-size:.92rem;border:1.5px solid var(--bd);border-radius:10px;background:var(--bg);color:var(--ink);margin:0}
 .dmod .r2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
 @media(max-width:600px){.dmod .r2{grid-template-columns:1fr}}
-.licbar{margin-top:10px;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.licbar{margin-top:12px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:center}
 .licbadge{display:inline-flex;align-items:center;gap:6px;padding:6px 12px;border-radius:99px;font-size:.82rem;font-weight:700;background:#ffffff22;color:#fff;backdrop-filter:blur(4px)}
 .licbadge.ok{background:#0e9f6e40;border:1px solid #38d39f88}
 .licbadge.tr{background:#ffc93c33;border:1px solid #ffc93caa;color:#fff7d6}
